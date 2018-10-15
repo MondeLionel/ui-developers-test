@@ -2,7 +2,6 @@
 	
 
 	'use strict';
-	 $('.datepicker').datepicker();
 
 	// Placeholder 
 	var placeholderFunction = function() {
@@ -32,7 +31,7 @@
 							} else if ( effect === 'fadeInRight') {
 								el.addClass('fadeInRight animated-fast');
 							} else {
-								el.addClass('fadeInUp animated-fast');
+								el.addClass('fadeIn animated');
 							}
 
 							el.removeClass('item-animate');
