@@ -20,8 +20,9 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -54,21 +55,23 @@
 							<input type="text" class="form-control" id="email" placeholder="Email Address" autocomplete="off">
 						</div>
 						<div class="form-group">
-							<!-- datepciker -->
+					
 						</div>
 						<div class="form-group">
 							<label for="password" class="sr-only">Password</label>
 							<input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off">
 						</div>
-						<div class="form-group">
+					
 							<!-- datepicker -->
-							<div class="input-group date" data-provide="datepicker">
-							    <input type="text" class="form-control">
-							    <div class="input-group-addon">
-							        <span class="glyphicon glyphicon-th"></span>
-							    </div>
+							 <div class="form-group">
+		           				<div class="input-group date" data-provide="datepicker">
+								    <input type="text" class="form-control">
+								    <div class="input-group-addon">
+								        <span class="glyphicon glyphicon-th"></span>
+								    </div>
+								</div>
 							</div>
-						</div>
+			
 						<div class="form-group">
 							<input type="submit" value="Subscribe" class="btn btn-primary">
 						</div>
@@ -85,12 +88,22 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!-- datepicker -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
 	<!-- Placeholder -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.3.1/jquery.placeholder.min.js"></script>
 	<!-- Waypoints -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+	<script>
+		 // $(function () {
+		 // 	 $('.datepicker').datepicker();
+   //              $('#datetimepicker1').datetimepicker();
+   //          });
+	</script>
+
+
 <!-- 
 /*input, textarea {
   color: #000;
