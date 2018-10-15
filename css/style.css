@@ -16,7 +16,7 @@ body.formville {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../dreaming.jpg);
+  background-image: url(../coffee.gif);
   height: 100%;
 }
 
@@ -38,7 +38,6 @@ a:hover {
   -o-box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
   box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.1);
   background: #ffffff;
-
   height: 100%;
   border-radius: 1em;
 }
