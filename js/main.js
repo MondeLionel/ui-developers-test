@@ -2,6 +2,7 @@
 	
 
 	'use strict';
+	 $('.datepicker').datepicker();
 
 	// Placeholder 
 	var placeholderFunction = function() {
